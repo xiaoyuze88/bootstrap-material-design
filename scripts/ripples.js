@@ -44,11 +44,9 @@
    * Initialize the plugin
    */
   Ripples.prototype.init = function() {
-    debugger
     var $element  = this.element;
 
     $element.on("mousedown touchstart", function(event) {
-      debugger
       /**
        * Verify if the user is just touching on a device and return if so
        */
